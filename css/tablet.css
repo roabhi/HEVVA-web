@@ -1,0 +1,10 @@
+@import url(styles.css);
+
+div.futuro, div.reserva-holder {
+    max-width:none !important;
+    border-radius: 0 !important;
+}
+
+footer div {
+    margin-top:10rem;
+}

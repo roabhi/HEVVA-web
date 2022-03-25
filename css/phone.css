@@ -1,0 +1,131 @@
+@import url('tablet.css');
+
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+
+nav div.logo {
+    width:25%;
+}
+
+nav div.nav-btn {
+    display:inline-block;
+    vertical-align: middle;
+    width:75%;
+}
+
+nav ul.nav {
+    position:fixed;
+    top:4.500rem;
+    left:0;
+    transform:translateX(100%);
+    width:100%;
+    height:100%;
+    z-index:10;
+    background:rgba(255,255,255,.98) none;
+    transition:transform .5s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    border-top:0.063rem var(--hevva-light-gray) solid;
+    text-align:left;
+}
+
+nav ul.nav li {
+    display:block;
+    border-bottom:0.063rem var(--hevva-light-gray) solid;
+}
+
+nav ul.nav.show {
+    transform:translateX(0);
+}
+
+div.hero h3 {
+    margin-top:calc(3.1rem + 4.500rem);
+    font-size:1.618rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    word-wrap:normal;
+}
+
+div.hero h3 span {
+    display:inline-block;
+}
+
+
+div.partners ul, div.futuro div.areas, section {
+    display:block;
+}
+
+div.partners ul li, div.futuro div.areas div.areas-block {
+    width:100%;
+}
+
+div.partners ul li {
+    margin:2.500rem 0;
+}
+
+section > div {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+section div.section-art {
+    margin-top:4.405rem;
+}
+
+section.explora div.section-art {
+    background-size:contain;
+}
+
+div.reserva div.reserva-holder form {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.reserva div.reserva-holder form input {
+    font-size:1rem;
+}
+
+div.comunidades div.comunidades-holder {
+    align-items: center;
+    justify-content: center;
+}
+
+div.demo h2 {
+    font-size:1.618rem;
+}
+
+div.demo p.demo-legend {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.demo div.demo-bottom {
+    min-height: 0;
+}
+
+div.demo div.demo-bottom div.demo-form {
+    border-radius:0;
+    max-width:none !important;
+    box-shadow: none !important;
+}
+
+div.demo div.demo-bottom, footer{
+    background-image: none;
+}
+
+footer {
+   background-color:transparent;   
+}
+
+footer div {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15rem;
+}
